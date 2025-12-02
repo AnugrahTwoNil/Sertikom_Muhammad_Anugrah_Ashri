@@ -10,7 +10,9 @@ const PesanError = document.getElementById('pesanError');
 form.addEventListener("submit", function(event) {
     event.preventDefault()
 
-    NamaError, EmailError, PesanError.innerText = "";
+    NamaError.innerText = "";
+    EmailError.innerText = "";
+    PesanError.innerText = "";
 
     if (NamaInput.value.trim() === "") {
         NamaError.innerText = "Nama Tidak Boleh Kosong.";
@@ -26,13 +28,3 @@ form.addEventListener("submit", function(event) {
         PesanError.innerText = "Pesan Tidak Boleh Kosong.";
     }
 });
-
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 5,
-    breakpoints: {
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 4 }
-    },
-});
-
