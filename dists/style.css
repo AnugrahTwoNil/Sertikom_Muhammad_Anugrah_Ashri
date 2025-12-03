@@ -131,6 +131,11 @@ background-color: #8C93A6;
     color: white;
 }
 
+.hero button:active {
+transform: translateY(2px);
+}
+
+
 .paket-card .card-img-overlay > h5.card-text {
     position: relative;
     left: 50%;
@@ -235,6 +240,10 @@ margin-top: 10px;
     transition: 0.3s ease;
 }
 
+#website:active {
+    transform: translateY(2px);
+}
+
 .paket-card {
     background-color: white;
     height: 500px;
@@ -311,10 +320,18 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
     color: white;
 }
 
+.paket button:active {
+    transform: translateY(2px);
+}
+
 .layanan a {
     border: 1px solid var(--Primary1);
     background-color: #3A7CA5;
     color: white;
+}
+
+.layanan a:active {
+    transform: translateY(2px);
 }
 
 .layanan a:hover {
