@@ -124,7 +124,7 @@ background-color: #8C93A6;
 .hero a {
     transition: 0.3s ease;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .hero a:hover {
