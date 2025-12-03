@@ -34,7 +34,7 @@ background-color: #8C93A6;
 }
 
 #typingtest {
-    min-height: 50px;
+    min-height: 100px;
 }
 
 
@@ -68,10 +68,12 @@ background-color: #8C93A6;
     font-weight: bold;
 }
 .btn {
+    color: white;
     background-color: #3A7CA5;
 }
 
 .btn:hover {
+    color: white;
     border: 1px solid;
     border-color: var(--Primary1);
     background-color: #479A9E;
@@ -102,7 +104,7 @@ background-color: #8C93A6;
 
 #btnform {
     background-color: #3A7CA5;
-    color: black;
+    color: white;
     border: 1px solid var(--Primary1);
 }
 
@@ -120,8 +122,13 @@ background-color: #8C93A6;
 }
 
 .hero a {
+    transition: 0.3s ease;
     text-decoration: none;
     color: black;
+}
+
+.hero a:hover {
+    color: white;
 }
 
 .paket-card .card-img-overlay > h5.card-text {
@@ -177,7 +184,12 @@ margin-top: 10px;
 }
 
 #paketmedia1 {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border:2px solid #479A9E;
+}
+
+#paketmedia1:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .paket ul {
@@ -493,6 +505,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 }
 
 .marquee-text-track {
+    padding: 5px;
     display: flex;
     gap: 20px;
     animation: marquee-move-text 30s linear infinite;
@@ -505,7 +518,7 @@ input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
 }
 
 .marquee-text img {
-    width: 80px;
+    width: 70px;
 }
 
 .marquee-text h2 {
